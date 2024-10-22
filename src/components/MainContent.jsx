@@ -12,7 +12,7 @@ export function MainContent() {
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">
-              Asia's Leading Brand
+              Asia&apos;s Leading Brand
             </span>
             <br />
             In Digital Career Training
