@@ -12,10 +12,10 @@ export function MainContent() {
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">
-              Asia&apos;s Leading Brand
+            The Foremost Digital Career 
             </span>
             <br />
-            In Digital Career Training
+            Institute in Asia
           </h1>
           <p className="text-lg mb-8 text-gray-300 max-w-2xl">
             Advance your career in Data Science and Digital Marketing with the Most trusted brand in Digital Education.
