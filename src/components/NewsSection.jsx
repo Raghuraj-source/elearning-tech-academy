@@ -23,7 +23,7 @@ export function NewsSection() {
             </Button>
             <h2 className="text-3xl font-bold text-white mb-6">Why Choose eLearning Tech Academy?</h2>
             <p className="text-lg text-gray-300 mb-8">
-            eLearning Tech Academy is awarded as the "Most Trusted Brand in Digital Education" by WCRC (Leading Marketing Research Firm and Magazine).
+            eLearning Tech Academy is awarded as the &quot;Most Trusted Brand in Digital Education&quot; by WCRC (Leading Marketing Research Firm and Magazine).
             </p>
             <Button className="bg-white text-[#1E1E1E] hover:bg-gray-200 transition-colors">
               Learn More About Us
