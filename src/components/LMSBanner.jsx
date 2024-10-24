@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
-import { motion } from "framer-motion"
 
 export default function LMSBanner() {
   return (
@@ -19,21 +18,13 @@ export default function LMSBanner() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           
           {/* Left Content */}
-          <motion.div 
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="w-full lg:w-1/2 space-y-6 sm:space-y-8 z-10"
-          >
+          <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8 z-10">
             {/* Badge */}
-            <motion.div 
-              whileHover={{ scale: 1.05 }}
-              className="inline-block"
-            >
+            <div className="inline-block hover:scale-105 transition-transform">
               <span className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-lg shadow-orange-500/20">
                 Theory, Live Practical & Implementation
               </span>
-            </motion.div>
+            </div>
 
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
@@ -51,14 +42,10 @@ export default function LMSBanner() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <motion.div 
-                whileHover={{ scale: 1.05 }} 
-                whileTap={{ scale: 0.95 }}
-                className="w-full sm:w-auto"
-              >
+              <div className="w-full sm:w-auto">
                 <Button 
                   size="lg"
-                  className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-full px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base lg:text-lg font-semibold shadow-lg shadow-orange-500/20"
+                  className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-full px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base lg:text-lg font-semibold shadow-lg shadow-orange-500/20 transition-all hover:scale-105 active:scale-95"
                 >
                   Watch the Video
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -66,45 +53,25 @@ export default function LMSBanner() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </Button>
-              </motion.div>
+              </div>
 
-              <motion.div 
-                whileHover={{ scale: 1.05 }} 
-                whileTap={{ scale: 0.95 }}
-                className="w-full sm:w-auto"
-              >
+              <div className="w-full sm:w-auto">
                 <Button 
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto border-2 border-gray-700 text-gray-300 hover:bg-gray-800 rounded-full px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base lg:text-lg font-semibold"
+                  className="w-full sm:w-auto border-2 border-gray-700 text-gray-300 hover:bg-gray-800 rounded-full px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base lg:text-lg font-semibold transition-all hover:scale-105 active:scale-95"
                 >
                   Learn More
                 </Button>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Content - Floating Cards */}
-          <motion.div 
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="w-full lg:w-1/2 relative"
-          >
+          <div className="w-full lg:w-1/2 relative">
             <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] perspective-1000">
               {/* Annual Certificate Card */}
-              <motion.div
-                animate={{ 
-                  rotateY: [0, 10, 0],
-                  rotateX: [0, -10, 0] 
-                }}
-                transition={{
-                  duration: 6,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-                className="absolute right-0 top-0 w-[80%] sm:w-[70%] lg:w-[80%] max-w-[400px]"
-              >
+              <div className="absolute right-0 top-0 w-[80%] sm:w-[70%] lg:w-[80%] max-w-[400px] transition-transform hover:translate-y-[-10px]">
                 <Card className="bg-white/10 backdrop-blur-lg border-0 shadow-2xl">
                   <div className="p-4 sm:p-6 space-y-3 sm:space-y-4">
                     <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-full w-20 sm:w-28 h-20 sm:h-28 mx-auto">
@@ -121,22 +88,10 @@ export default function LMSBanner() {
                     </div>
                   </div>
                 </Card>
-              </motion.div>
+              </div>
 
               {/* 3 Years Card */}
-              <motion.div
-                animate={{ 
-                  rotateY: [0, -10, 0],
-                  rotateX: [0, 10, 0] 
-                }}
-                transition={{
-                  duration: 6,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 0.5
-                }}
-                className="absolute left-0 bottom-0 w-[80%] sm:w-[70%] lg:w-[80%] max-w-[400px]"
-              >
+              <div className="absolute left-0 bottom-0 w-[80%] sm:w-[70%] lg:w-[80%] max-w-[400px] transition-transform hover:translate-y-[-10px]">
                 <Card className="overflow-hidden">
                   <div className="p-4 sm:p-6 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg">
                     <div className="space-y-3 sm:space-y-4">
@@ -158,29 +113,26 @@ export default function LMSBanner() {
                     </div>
                   </div>
                 </Card>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
 
       {/* Features Section */}
       <div className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {features.map((feature, index) => (
-            <motion.div
+          {features.map((feature) => (
+            <div
               key={feature.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
-              className="bg-white/5 backdrop-blur-lg rounded-2xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300"
+              className="bg-white/5 backdrop-blur-lg rounded-2xl p-4 sm:p-6 hover:bg-white/10 transition-all duration-300 hover:translate-y-[-5px]"
             >
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">{feature.title}</h3>
               <p className="text-sm sm:text-base text-gray-400">{feature.description}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
