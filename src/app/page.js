@@ -1,4 +1,5 @@
 'use client'
+import Certified from '@/components/Certified'
 import { Contact } from '@/components/Contact'
 import { FeatureCards } from '@/components/FeatureCards'
 import { Header } from '@/components/Header'
@@ -20,6 +21,7 @@ export default function Home() {
         <NewsSection />
         <FeatureCards />
         <LMSBanner />
+        <Certified />
 
       </main>
       
