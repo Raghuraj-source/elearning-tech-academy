@@ -1,12 +1,14 @@
 'use client'
 import Certified from '@/components/Certified'
 import { Contact } from '@/components/Contact'
+import { ContactForm } from '@/components/ContactForm'
 import { FeatureCards } from '@/components/FeatureCards'
 import { Header } from '@/components/Header'
 import LMSBanner from '@/components/LMSBanner'
 // import { HeroSection } from '@/components/HeroSection'
 import { MainContent } from '@/components/MainContent'
 import { NewsSection } from '@/components/NewsSection'
+import Testimonials from '@/components/Testimonials'
 // import { ChatWidget } from '@/components/ChatWidget'
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
         <FeatureCards />
         <LMSBanner />
         <Certified />
+        <Testimonials />
+        <ContactForm />
 
       </main>
       
