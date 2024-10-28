@@ -50,7 +50,7 @@ const featuredPosts = [
 const recentPosts = [
   {
     id: 3,
-    title: "Mastering Data Analytics: A Beginner's Guide",
+    title: "Mastering Data Analytics: A Beginner&apos;s Guide",
     excerpt: "Learn the fundamentals of data analytics and start your journey in this exciting field.",
     image: "/blog/data-analytics.jpg",
     category: "Data Analytics",

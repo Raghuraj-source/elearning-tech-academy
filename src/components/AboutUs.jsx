@@ -80,7 +80,7 @@ export function AboutUs() {
                 </span>
               </h1>
               <p className="text-lg leading-relaxed text-gray-300">
-                At SkillVertex, we're dedicated to empowering individuals with cutting-edge digital skills
+                At SkillVertex, we&apos;re dedicated to empowering individuals with cutting-edge digital skills
                 and creating the next generation of digital leaders.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -127,7 +127,7 @@ export function AboutUs() {
               </div>
               <h2 className="text-2xl font-bold text-gray-900">Our Vision</h2>
               <p className="text-gray-600 leading-relaxed">
-                To become the world's leading platform for digital skills education, creating a
+                To become the world&apos;s leading platform for digital skills education, creating a
                 global community of successful digital professionals who drive innovation and
                 transformation.
               </p>
