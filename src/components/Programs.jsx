@@ -1,4 +1,3 @@
-// components/Programs.tsx
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Clock, Users, BarChart, Award, CheckCircle, Star, PlayCircle, Download } from "lucide-react"
@@ -11,7 +10,7 @@ const courses = [
     description: "Master the art of digital marketing with comprehensive training in SEO, SEM, Social Media, and Analytics.",
     duration: "12 Weeks",
     level: "Beginner to Advanced",
-    image: "/courses/digital-marketing.jpg",
+    image: "/trusted.png",
     rating: 4.8,
     students: "2.5K+",
     modules: [
@@ -36,7 +35,7 @@ const courses = [
     description: "Become a full-stack web developer with hands-on training in frontend and backend technologies.",
     duration: "16 Weeks",
     level: "Intermediate",
-    image: "/courses/web-development.jpg",
+    image: "/apple.png",
     rating: 4.9,
     students: "3K+",
     modules: [
@@ -61,7 +60,7 @@ const courses = [
     description: "Learn to analyze data and derive meaningful insights using cutting-edge tools and technologies.",
     duration: "14 Weeks",
     level: "Intermediate to Advanced",
-    image: "/courses/data-analytics.jpg",
+    image: "/google.webp",
     rating: 4.7,
     students: "2K+",
     modules: [
@@ -89,7 +88,7 @@ export function Programs() {
       <section className="relative bg-gray-900 py-24">
         <div className="absolute inset-0">
           <Image
-            src="/programs-hero.jpg"
+            src="/Hero_Banner.png"
             alt="Programs Background"
             fill
             priority

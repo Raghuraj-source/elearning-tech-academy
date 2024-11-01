@@ -97,18 +97,18 @@ export function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-orange-500" />
                 <span className="text-sm">
-                  123 Education Hub, Sector 15
+                Phase 2, I, 11, Pocket D, Chattarpur Enclave, 
                   <br />
-                  Kailash Colony, New Delhi - 110048
+                  Chhatarpur, New Delhi, Delhi 110074
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 flex-shrink-0 text-orange-500" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 6366666760</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 flex-shrink-0 text-orange-500" />
-                <span className="text-sm">info@eLearningTechAcademy.com</span>
+                <span className="text-sm">info@elearning.org.in</span>
               </li>
             </ul>
           </div>
