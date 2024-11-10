@@ -19,11 +19,11 @@ const featuredPosts = [
     id: 1,
     title: "The Future of Digital Marketing in 2024",
     excerpt: "Explore the latest trends and technologies shaping the digital marketing landscape.",
-    image: "/blog/digital-marketing-trends.jpg",
+    image: "/google.webp",
     category: "Digital Marketing",
     author: {
       name: "Sarah Johnson",
-      avatar: "/team/sarah.jpg",
+      avatar: "/google.webp",
       role: "Marketing Director"
     },
     date: "Mar 15, 2024",
@@ -34,11 +34,11 @@ const featuredPosts = [
     id: 2,
     title: "Top Programming Languages to Learn in 2024",
     excerpt: "A comprehensive guide to the most in-demand programming languages for developers.",
-    image: "/blog/programming-languages.jpg",
+    image: "/google.webp",
     category: "Web Development",
     author: {
       name: "Michael Chen",
-      avatar: "/team/michael.jpg",
+      avatar: "/google.webp",
       role: "Lead Developer"
     },
     date: "Mar 12, 2024",
@@ -52,7 +52,7 @@ const recentPosts = [
     id: 3,
     title: "Mastering Data Analytics: A Beginner&apos;s Guide",
     excerpt: "Learn the fundamentals of data analytics and start your journey in this exciting field.",
-    image: "/blog/data-analytics.jpg",
+    image: "/google.webp",
     category: "Data Analytics",
     author: {
       name: "Priya Sharma",
